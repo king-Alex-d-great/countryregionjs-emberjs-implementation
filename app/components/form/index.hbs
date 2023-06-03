@@ -1,7 +1,7 @@
 <form class="submain-form-content">
-  <Select @items={{this.countries}} @onSelect={{this.handleCountryChange}} @labelname="Country" />
-  <Select @items={{this.states}} @onSelect={{this.handleStateChange}} @labelname="State"  />
-  <Select @items={{this.lgas}} @onSelect={{this.handleLgaChange}} @labelname="Sub-State" />
+  <Select @items={{this.countries}} @onSelect={{this.handleCountryChange}} @labelname="Country" @show={{true}}/>
+  <Select @items={{this.states}} @onSelect={{this.handleStateChange}} @labelname="State" @show={{this.country}} />
+  <Select @items={{this.lgas}} @onSelect={{this.handleLgaChange}} @labelname="Sub-State" @show={{this.state}}/>
   <button class="submain-form-content-button"type="submit">Sign In</button>
   <p class="submain-form-content-p">Powered by<a href="https://www.npmjs.com/package/countryregionjs">    CountryRegionJS</a></p>
 </form>
