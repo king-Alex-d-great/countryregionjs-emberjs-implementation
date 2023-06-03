@@ -153,9 +153,16 @@
   }
 
   .submain-form-content-select {
+    appearance: none;
+      -webkit-appearance: none;
+      /* For Safari and Chrome */
+      -moz-appearance: none;
+      /* For Firefox */
+      background: none;
     height: 100%;
     padding: 1.3rem;
     border: 1px solid #DBD9D9;
+    background-color: #ffffff;
     border-radius: 5px;
     margin-top: 3%;
     font-size: 0.9rem;
