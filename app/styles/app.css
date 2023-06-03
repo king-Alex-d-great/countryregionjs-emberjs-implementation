@@ -143,32 +143,6 @@
     font-size: 0.8rem;
   }
 
-  .submain-form-content-select-holder {
-    margin-top: 1.8rem;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    border: 2px solid green;
-  }
-
-  .submain-form-content-select {
-    appearance: none;
-      -webkit-appearance: none;
-      /* For Safari and Chrome */
-      -moz-appearance: none;
-      /* For Firefox */
-      background: none;
-    height: 100%;
-    padding: 1.3rem;
-    border: 1px solid #DBD9D9;
-    background-color: #ffffff;
-    border-radius: 5px;
-    margin-top: 3%;
-    font-size: 0.9rem;
-    opacity: 0.8;
-  }
-
   .submain-form-content-p {
     font-size: 0.8rem;
   }
