@@ -7,7 +7,7 @@ Live URL: https://countryregionjs-emberjs.netlify.app/
 Check out the [CountryRegionJS Repository](https://github.com/king-Alex-d-great/CountryRegionJS) 
 
 ## **Demo Peek**
-![image](https://github.com/king-Alex-d-great/countryregionjs-emberjs-implementation/assets/58665121/38ce26df-42e6-4727-8904-f22f2fc52beb)
+![image](https://github.com/king-Alex-d-great/countryregionjs-emberjs-implementation/assets/58665121/3a05f02d-6fd5-4829-9f9b-9e4b9a16330a)
 
 ## **What is CountryRegionJS**
 
