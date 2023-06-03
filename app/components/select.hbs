@@ -1,12 +1,19 @@
 <section class="submain-form-content-select-holder">
-  <label class="submain-form-content-select-label">{{@labelname}}</label>
-  <select
-    id="country"
-    class="submain-form-content-select"
-    {{on "change" this.handleSelection}}
-  >
-    {{#each @items as |item|}}
-      <option class="submain-form-content-select-option" value={{item.id}}>{{item.name}}</option>
-    {{/each}}
-  </select>
+  {{#if @show}}
+    <label class="submain-form-content-select-label">{{@labelname}}</label>
+
+    <select
+      id="country"
+      class="submain-form-content-select"
+      {{on "change" this.handleSelection}}
+    >
+      {{#each @items as |item|}}
+        <option
+          class="submain-form-content-select-option"
+          value={{item.id}}
+        >{{item.name}}</option>
+      {{/each}}
+    </select>
+  {{/if}}
+
 </section>
