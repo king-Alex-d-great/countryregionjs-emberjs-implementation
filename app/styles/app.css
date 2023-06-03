@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+/**
+ * Base Elements
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+.submain {
+  display: flex;
+  height: 90vh;
+  margin: 3% 0;
+}
+
+.submain-image-holder-little {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/images/food.svg");
+  align-content: end;
+}
+
+.submain-section {
+  width: 50%;
+  height: 100%;
+}
+
+.submain-form {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+}
+
+.submain-form-header {
+  width: 100%;
+}
+
+.submain-form-header-h1 {
+  font-size: 2.81rem;
+  margin-bottom: 1rem;
+}
+
+.submain-form-header-p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.submain-form-content-select-holder {
+  margin-top: 1.8rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.submain-form-content-select-label {
+  font-size: 0.83rem;
+  font-weight: 450;
+  opacity: 0.7;
+}
+
+.submain-form-content-select-option {
+  font-size: 0.79rem;
+}
+
+.submain-form-content-select {
+  height: 100%;
+  padding: 1.3rem;
+  border: 1px solid #DBD9D9;
+  border-radius: 5px;
+  margin-top: 3%;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.submain-form-content-button {
+  width: 100%;
+  background: #FF6D40;
+  border-radius: 5px;
+  padding: 1.2rem;
+  margin-top: 10%;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.submain-form-content-button:hover {
+  background-color: #ffffff;
+  border: 2px solid #FF6D40;
+  color: #FF6D40;
+}
+
+.submain-form-content-p,
+.submain-form-content-p > a {
+  font-size: 0.875rem;
+  line-height: 24px;
+  margin-top: 5%;
+  color: #AFAEAE;
+}
+
+.submain-form-content-p > a:hover {
+  color: #FF6D40;
+}
+
+.submain-image-holder {
+  width: 55%;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/food.svg");
+  align-content: end;
+  padding: 10%;
+}
