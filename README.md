@@ -1,56 +1,70 @@
-# emberjs
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+# **CountryRegionJS EmberJS Demo**
+This repo contains a demo for how you can implement the [countryregionjs](https://www.npmjs.com/package/countryregionjs) library in your emberJS application
 
-## Prerequisites
+Live URL: https://countryregionjs-emberjs.netlify.app/
 
-You will need the following things properly installed on your computer.
+Check out the [CountryRegionJS Repository](https://github.com/king-Alex-d-great/CountryRegionJS) 
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://cli.emberjs.com/release/)
-* [Google Chrome](https://google.com/chrome/)
+## **Demo Peek**
+![image](https://github.com/king-Alex-d-great/countryregionjs-emberjs-implementation/assets/58665121/38ce26df-42e6-4727-8904-f22f2fc52beb)
 
-## Installation
+## **What is CountryRegionJS**
 
-* `git clone <repository-url>` this repository
-* `cd emberjs`
-* `npm install`
+[CountryRegionJS](https://github.com/king-Alex-d-great/CountryRegionJS)  is a simple-to-use library that provides you with the MOST COMPREHENSIVE data for filling  cascading dropdown/select for countries, associated states and substates (local governments).
 
-## Running / Development
+Check out the [CountryRegionJS Repository](https://github.com/king-Alex-d-great/CountryRegionJS) 
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+## **Badges**
 
-### Code Generators
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-Make use of the many generators for code, try `ember help generate` for more details
+stable release version: ![version](https://img.shields.io/badge/version-1.1.4-blue)
 
-### Running Tests
+Nuget package downloads: ![downloads](https://img.shields.io/badge/downloads-~5k-yellow)
 
-* `ember test`
-* `ember test --server`
+NPM downloads: ![downloads](https://img.shields.io/badge/downloads-400+-brightgreen)
+## **Tech Stack**
 
-### Linting
+**Client:** EmberJS, [CountryRegionJS](https://www.npmjs.com/package/countryregionjs), CSS
 
-* `npm run lint`
-* `npm run lint:fix`
 
-### Building
+## **Authors**
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+- [@King Alex](https://github.com/king-Alex-d-great)
 
-### Deploying
+## Run Locally
 
-Specify what it takes to deploy your app.
+Clone the project
 
-## Further Reading / Useful Links
+```bash
+  git clone https://github.com/king-Alex-d-great/countryregionjs-emberjs-implementation.git
+```
 
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://cli.emberjs.com/release/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+Go to the project directory
+
+```bash
+  cd countryregionjs-emberjs-implementation
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
