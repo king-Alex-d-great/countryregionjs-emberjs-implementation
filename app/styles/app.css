@@ -124,7 +124,7 @@
 
 @media only screen and (max-width: 550px) {
   * {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .submain-form-header-h1 {
@@ -180,19 +180,19 @@
 
 /* Styles for iPhone X */
 @media (device-width: 375px) and (device-height: 812px) {
+
 }
 
-@media (device-width: 414px) and (device-height: 896px) {
+@media (min-width: 375px) and (device-height: 896px) {
   .submain-form-content-select {
       background-color: #ffffff;
       height: 100%;
-      padding: 1.3rem;
+      padding: 2rem;
       border: 1px solid green;
       border-radius: 5px;
       margin-top: 3%;
       opacity: 0.8;
       color: black;
-
     }
   
     .submain-form-content-select-option {
