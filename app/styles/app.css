@@ -208,7 +208,7 @@
   .submain-form-content-select {
     background-color: #ffffff;
     height: 100%;
-    padding: 1rem;
+    padding: 3rem;
     border: 1px solid #DBD9D9;
     border-radius: 5px;
     margin-top: 3%;
@@ -216,9 +216,14 @@
     color: black;
   }
 
+  .submain-form-header {
+    margin-bottom: 0.5rem;
+  }
+
   .submain-form-header-p {
     font-size: 0.7rem;
     opacity: 0.8;
+
   }
 
   .submain-form-content-select-label {
@@ -230,7 +235,7 @@
     color: black;
   }
 
-  button.submain-form-content-button{
+  button.submain-form-content-button {
     padding: 1rem;
   }
 }
