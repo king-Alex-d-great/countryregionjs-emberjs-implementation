@@ -141,6 +141,13 @@
 
   .submain-form-content-select-option {
     font-size: 0.8rem;
+    background-color: #ffffff;
+    height: 100%;
+    padding: 1.3rem;
+    border: 1px solid #DBD9D9;
+    border-radius: 5px;
+    margin-top: 3%;
+    opacity: 0.8;
   }
 
   .submain-form-content-p {
