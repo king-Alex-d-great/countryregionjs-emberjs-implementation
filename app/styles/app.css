@@ -139,24 +139,9 @@
     font-size: 0.7rem;
   }
 
-  .submain-form-content-select {
-    background-color: #ffffff;
-    height: 100%;
-    padding: 1.3rem;
-    border: 1px solid #DBD9D9;
-    border-radius: 5px;
-    margin-top: 3%;
-    opacity: 0.8;
-  }
-
-  .submain-form-content-select-option {
-    font-size: 0.8rem;
-  }
-
   .submain-form-content-p {
     font-size: 0.8rem;
   }
-
 }
 
 @media only screen and (max-width: 280px) {
@@ -191,6 +176,28 @@
   .submain-image-holder-little {
     padding: 30%;
   }
+}
+
+/* Styles for iPhone X */
+@media (device-width: 375px) and (device-height: 812px) {
+}
+
+@media (device-width: 414px) and (device-height: 896px) {
+  .submain-form-content-select {
+      background-color: #ffffff;
+      height: 100%;
+      padding: 1.3rem;
+      border: 1px solid green;
+      border-radius: 5px;
+      margin-top: 3%;
+      opacity: 0.8;
+      color: black;
+
+    }
+  
+    .submain-form-content-select-option {
+      font-size: 0.8rem;
+    }
 }
 
 @media only screen and (min-width: 850px) {
