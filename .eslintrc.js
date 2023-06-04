@@ -47,10 +47,5 @@ module.exports = {
       },
       extends: ['plugin:n/recommended'],
     },
-    {
-      // test files
-      files: ['tests/**/*-test.{js,ts}'],
-      extends: ['plugin:qunit/recommended'],
-    },
   ],
 };
